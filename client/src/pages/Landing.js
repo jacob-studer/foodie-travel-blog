@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 // import { Link } from 'react-router-dom';
 
@@ -12,16 +14,31 @@ const Landing = () => {
         </div>
         <div className="landing-categories">
             <div className="landing-category">
-                <img src={require('../images/example.jpg').default} alt="example"></img>
+            <Link to="/recipes">
+                <img 
+                src={require('../images/example.jpg').default} 
+                alt="example">
+                </img>
                 <p>recipes</p>
+            </Link>
             </div>
             <div className="landing-category">
-                <img src={require('../images/example.jpg').default} alt="example"></img>
+            <Link to="/restaurants">
+                <img 
+                src={require('../images/example.jpg').default} 
+                alt="example">
+                </img>
                 <p>restaurants</p>
+            </Link>
             </div>
             <div className="landing-category">
-                <img src={require('../images/example.jpg').default} alt="example"></img>
+            <Link to="/travel">
+                <img 
+                src={require('../images/example.jpg').default} 
+                alt="example">
+                </img>
                 <p>travel</p>
+            </Link>
             </div>
         </div>
         <div className="landing-feature">

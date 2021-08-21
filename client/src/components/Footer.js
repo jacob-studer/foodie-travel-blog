@@ -9,7 +9,8 @@ const Footer = () => {
                 <h5>Links</h5>
                 <a href="https://www.instagram.com">Instagram</a>
                 <a href="https://www.facebook.com">Facebook</a>
-                <h5><Link to="/" className="nav-links">Contact</Link></h5>
+                <h5><Link to="/">Contact</Link></h5>
+                <h5><Link to="/login">Creator Login</Link></h5>
             </div>
     );
 }

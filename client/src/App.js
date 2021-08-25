@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 import Recipes from './pages/Recipes'
 import Restaurants from './pages/Restaurants'
 import Travel from './pages/Travel'
-import Login from './pages/Login'
+import Profile from './pages/Profile'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path='/recipes' component={Recipes} />
         <Route path='/restaurants' component={Restaurants} />
         <Route path='/travel' component={Travel} />
-        <Route path='/login' component={Login} />
+        <Route path='/profile' component={Profile} />
       </Switch>
     </>
 

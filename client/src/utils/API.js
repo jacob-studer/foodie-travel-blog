@@ -1,4 +1,5 @@
 export const loginUser = (userData) => {
+    console.log(userData)
     return fetch('/api/users/login', {
       method: 'POST',
       headers: {
@@ -6,6 +7,7 @@ export const loginUser = (userData) => {
       },
       body: JSON.stringify(userData),
     });
+    
   };
 
 export const getMe = (token) => {
